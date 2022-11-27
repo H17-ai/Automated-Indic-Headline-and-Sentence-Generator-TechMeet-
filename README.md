@@ -72,16 +72,16 @@ This task involves passing a given article or document via a network to produce 
 
 In this section, we will create a ***Abstract Summary***.
 
-- **Data**:
-    -We are using the [Kaggle](https://www.kaggle.com/sunnysai12345/news-summary) News Summary dataset. This dataset is a compilation of Indian-published newspapers.
-    -Additionally, we scraped headlines from stories about mobile technology on https://gadgets.ndtv.com/mobiles.
+ **Data**:
+    - We are using the [Kaggle](https://www.kaggle.com/sunnysai12345/news-summary) News Summary dataset. This dataset is a compilation of Indian-published newspapers.
+    - Additionally, we scraped headlines from stories about mobile technology on https://gadgets.ndtv.com/mobiles.
 
 
 
 - **Language Model Used**: 
- -One of the newest and most innovative transformer models, the ***T5***, is used in this notebook. (Research Report) (https://arxiv.org/abs/1910.10683)
-     -***T5*** is one of a kind in many aspects, with a transformers architecture that not only does several NLP jobs at the cutting edge of technology, but also takes a highly unconventional approach to them.
-       - **Text-2-Text** - based on the illustration from the T5 paper. Every NLP task is transformed into a **text-to-text** issue. Instead of being viewed as independent, distinct problem statements, tasks like translation, classification, summarization, and question answering are all regarded as a text-to-text conversion challenge.
+ - One of the newest and most innovative transformer models, the ***T5***, is used in this notebook. (Research Report) (https://arxiv.org/abs/1910.10683)
+ - ***T5*** is one of a kind in many aspects, with a transformers architecture that not only does several NLP jobs at the cutting edge of technology, but also takes a highly unconventional approach to them.
+ - **Text-2-Text** - based on the illustration from the T5 paper. Every NLP task is transformed into a **text-to-text** issue. Instead of being viewed as independent, distinct problem statements, tasks like translation, classification, summarization, and question answering are all regarded as a text-to-text conversion challenge.
      
 ## 2. Future Prospects
 - The translation part of the pipeline can be scaled to multiple code-mixed language.
