@@ -89,14 +89,15 @@ We can create a model to automatically learn the reverse mapping between brand a
 - With the availability of more data, the pipeline can be expanded to include other industries, such as fashion and transportation.
 - It is possible to utilise the entire pipeline for business purposes.
 
-3. Acknowledgments and References
-We have utilised several open source libraries, datasets, and available codebase for various pipeline components. We appreciate the creators of the aforementioned libraries, codebases, and datasets.
+## 3. Acknowledgments and References
+ -We have utilised several open source libraries, datasets, and available codebase for various pipeline components. We appreciate the creators of the aforementioned libraries, codebases, and datasets.
+
 - The ASGCN Codebase (https://github.com/GeneZC/ASGCN)
 - [ASGCN Paper] (available at arxiv.org/abs/1909.03477)
 Exploring the Boundaries of Transfer Learning with a Unified Text-to-Text Transformer
 (https://arxiv.org/abs/1910.10683)
 - [T5 hugging the face transformer]
-(https://huggingface.co/transformers/model doc/t5.html)
+(https://huggingface.co/transformers/modeldoc/t5.html)
 - Kaggle's [News Summary Dataset] (https://www.kaggle.com/sunnysai12345/news-summary).
 – [MarianMT](https://huggingface.co/transformers/model doc/marian.html)
 - Pytorch (https://pytorch.org/).
