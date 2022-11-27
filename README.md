@@ -79,26 +79,23 @@ In this section, we will create a ***Abstract Summary***.
 
 
 - **Language Model Used**: 
-- **Language Model Used**:  One of the newest and most innovative transformer models, the ***T5***, is used in this notebook. (Research Report) (https://arxiv.org/abs/1910.10683)
+ -One of the newest and most innovative transformer models, the ***T5***, is used in this notebook. (Research Report) (https://arxiv.org/abs/1910.10683)
      -***T5*** is one of a kind in many aspects, with a transformers architecture that not only does several NLP jobs at the cutting edge of technology, but also takes a highly unconventional approach to them.
        - **Text-2-Text** - based on the illustration from the T5 paper. Every NLP task is transformed into a **text-to-text** issue. Instead of being viewed as independent, distinct problem statements, tasks like translation, classification, summarization, and question answering are all regarded as a text-to-text conversion challenge.
      
-    ## 2. Future Prospects
+## 2. Future Prospects
 - The translation part of the pipeline can be scaled to multiple code-mixed language.
 We can create a model to automatically learn the reverse mapping between brand and model with the availability of more data since it was stated that when it comes to different models of a brand, we need to identify them only if they appear with their brand name. For example, galaxy needs to be identified as a brand only if it is mentioned in the text with Samsung.
 - With the availability of more data, the pipeline can be expanded to include other industries, such as fashion and transportation.
 - It is possible to utilise the entire pipeline for business purposes.
 
 ## 3. Acknowledgments and References
- -We have utilised several open source libraries, datasets, and available codebase for various pipeline components. We appreciate the creators of the aforementioned libraries, codebases, and datasets.
+- We have utilised several open source libraries, datasets, and available codebase for various pipeline components. We appreciate the creators of the aforementioned libraries, codebases, and datasets.
 
-- The ASGCN Codebase (https://github.com/GeneZC/ASGCN)
-- [ASGCN Paper] (available at arxiv.org/abs/1909.03477)
-Exploring the Boundaries of Transfer Learning with a Unified Text-to-Text Transformer
-(https://arxiv.org/abs/1910.10683)
-- [T5 hugging the face transformer]
-(https://huggingface.co/transformers/modeldoc/t5.html)
-- Kaggle's [News Summary Dataset] (https://www.kaggle.com/sunnysai12345/news-summary).
-– [MarianMT](https://huggingface.co/transformers/model doc/marian.html)
-- Pytorch (https://pytorch.org/).
-
+- [ASGCN Codebase](https://github.com/GeneZC/ASGCN)
+- [ASGCN Paper](https://arxiv.org/abs/1909.03477)
+- [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)
+- [T5 Hugging face transformer](https://huggingface.co/transformers/model_doc/t5.html)
+- [News Summary Dataset Kaggle](https://www.kaggle.com/sunnysai12345/news-summary)
+- [MarianMT](https://huggingface.co/transformers/model_doc/marian.html)
+- [Pytorch](https://pytorch.org/)
