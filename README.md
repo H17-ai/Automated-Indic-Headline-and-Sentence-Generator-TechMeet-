@@ -9,7 +9,7 @@ Automated identification, summarization, and entity-based sentiment analysis of 
 For this task, we received a mix of 4000 non-mobile tech and mobile tech tweets and articles each, with their labels of mobile_tech_tag as well as the headlines for the articles. No data was given for entity-based sentiment analysis. 
 
 ## 1. Pipeline
-![Pipeline](https://github.com/mukul54/inter-iit-bridgei2i/blob/main/_assets/pipeline.png)
+![Pipeline](https://github.com/Raghu-vamsi-pav/Automated-Indic-Headline-and-Sentence-Generator-TechMeet-/blob/main/assets/pipeline.png)
 We developed an end-to-end pipeline that runs from the input to the output while assuring good efficiency and code scalability.
 
 ### 1.1  Preprocessing
